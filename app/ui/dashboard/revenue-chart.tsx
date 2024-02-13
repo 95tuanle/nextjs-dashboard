@@ -1,5 +1,5 @@
-import { lusitana } from '@/app/ui/fonts';
-import { Revenue } from '@/app/lib/definitions';
+import {lusitana} from '@/app/ui/fonts';
+import {Revenue} from '@/app/lib/definitions';
 
 // This component is representational only.
 // For data visualization UI, check out:
@@ -8,8 +8,8 @@ import { Revenue } from '@/app/lib/definitions';
 // https://airbnb.io/visx/
 
 export default async function RevenueChart({
-  revenue,
-}: {
+                                             revenue,
+                                           }: {
   revenue: Revenue[];
 }) {
   const chartHeight = 350;
